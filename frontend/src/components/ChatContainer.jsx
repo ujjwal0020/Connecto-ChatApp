@@ -3,7 +3,8 @@ import { useEffect, useRef } from "react";
 
 import ChatHeader from "./ChatHeader";
 import MessageInput from "./MessageInput";
-import MessageSkeleton from "./components/skeletons/MessageSkeleton";
+import MessageSkeleton from "./skeletons/MessageSkeleton";
+
 import { useAuthStore } from "../store/useAuthStore";
 import { formatMessageTime } from "../lib/utils";
 
