@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://connecto-chatapp.onrender.com",
+    origin: "https://connecto-chatapp-2.onrender.com",
     credentials: true,
   })
 );
